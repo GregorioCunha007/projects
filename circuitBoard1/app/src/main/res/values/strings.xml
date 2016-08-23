@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">circuirtBoard</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Points">Points</string>
+    <string name="title_activity_levels">levels</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

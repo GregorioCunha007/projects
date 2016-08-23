@@ -1,0 +1,2 @@
+CHANGED,C:\Users\Pedro\Desktop\1\MyStuff\circuitBoard1\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\model\Bridge$override.class
+CHANGED,C:\Users\Pedro\Desktop\1\MyStuff\circuitBoard1\app\build\intermediates\transforms\instantRun\debug\folders\4000\5\enhanced\com\android\tools\fd\runtime\AppPatchesLoaderImpl.class

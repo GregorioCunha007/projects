@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="cities">
+    <item> Porto </item>
+    <item> Lisboas </item>
+    <item> RioDouro</item>
+    </string-array>
+</resources>

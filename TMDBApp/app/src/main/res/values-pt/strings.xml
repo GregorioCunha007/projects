@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name"></string>
+    <string name="Daily">Diariamente</string>
+    <string name="action_settings">definicoes</string>
+    <string name="config">definicoes</string>
+    <string name="incoming">Brevemente</string>
+    <string name="next_page">Prox Pag</string>
+    <string name="notificationTitle">O filme esta nos cinemas</string>
+    <string name="search_movie">proc filme</string>
+    <string name="title">Exibicao</string>
+    <string name="title_activity_config">definicoes</string>
+    <string name="Weekly">Semanalmente</string>
+</resources>

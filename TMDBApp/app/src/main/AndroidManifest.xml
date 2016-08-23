@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="pdm.isel.pt.tmdbapp" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_action_ghostbusters"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat" >
+        <activity
+            android:name=".Control.MainActivity"
+            android:icon="@mipmap/ic_action_ghostbusters"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".View.MovieDetailsActivity" />
+        <activity android:name=".View.MovieActivity" >
+        </activity>
+
+        <service
+            android:name=".Control.MyWebRequestService"
+            android:exported="false"
+            tools:ignore="InnerclassSeparator" />
+        <service
+            android:name=".Control.UpdateDataBaseService"
+            android:exported="false" >
+        </service>
+
+        <provider
+            android:name=".Model.MyContentProvider"
+            android:authorities="pdm.isel.pt.tmdbapp.Model.MyContentProvider" >
+        </provider>
+
+        <activity
+            android:name=".Control.ConfigActivity"
+            android:label="@string/title_activity_config" >
+        </activity>
+    </application>
+
+</manifest>
